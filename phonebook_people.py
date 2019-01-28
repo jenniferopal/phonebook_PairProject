@@ -1,17 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 14 09:44:54 2019
+###########################
+#PEOPLE TABLE
+###########################
 
-@author: milly
-"""
 import json
 import sqlite3
 conn = sqlite3.connect('phonebook_project.db')
 c = conn.cursor()
-
-###########################
-#PEOPLE TABLE
-###########################
         
 def create_phonebook_people():
     c.execute('CREATE TABLE IF NOT EXISTS phonebook_people(first_name TEXT, last_name TEXT, address_line_1 TEXT, address_line_2 TEXT, address_line_3 TEXT, postcode REAL, country TEXT, telephone_number REAL)')

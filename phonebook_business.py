@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 14 09:44:54 2019
-
-@author: milly
-"""
-
 ###########################
 #BUSINESS TABLE
 ###########################
