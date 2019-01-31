@@ -4,7 +4,7 @@
 
 import json
 import sqlite3
-conn = sqlite3.connect('phonebook_project.db')
+conn = sqlite3.connect('db/phonebook_project.db')
 c = conn.cursor()
 
 def create_phonebook_business():
@@ -17,7 +17,7 @@ data = json.load(file)
 def data_entry_business():
     for i in range(len(data)):
         business_info = data[i]
-        business_name = business_info['business_name']
+        business_name = business_info['business name']
         address_line_1 = business_info['address_line_1']
         address_line_2 = business_info['address_line_2']
         address_line_3 = business_info['address_line_3']

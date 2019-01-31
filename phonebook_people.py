@@ -4,7 +4,7 @@
 
 import json
 import sqlite3
-conn = sqlite3.connect('phonebook_project.db')
+conn = sqlite3.connect('db/phonebook_project.db')
 c = conn.cursor()
         
 def create_phonebook_people():
