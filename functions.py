@@ -96,9 +96,7 @@ def searchBusinessName(inputBusinessName, inputBusinessLocation):
     print("Would you like to search again? ")
     print("Type yes or no:")
     another_option()
- 
 
-  
 #SEARCH BY BUSINESS CATEGORY
 def ask_searchBusinessCat():
     inputBusinessCat = ""
