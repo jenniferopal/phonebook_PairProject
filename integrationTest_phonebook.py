@@ -31,26 +31,6 @@ class test_Project():
         print(self.test_inputBusinessCat())
         print(self.test_BusinessCatSearch())
         
-"""
-
-#SEARCH BY BUSINESS CATEGORY
-def ask_searchBusinessCat():
-    inputBusinessCat = ""
-    inputBusinessLocation = ""
-    while inputBusinessCat == "" and inputBusinessLocation == "":  
-        try:
-            inputBusinessCat = input("Enter a business Category: ")
-            inputBusinessLocation = input("Enter a location: ")
-        except ValueError:
-            print("Please enter a string!")
-    searchBusinessCat(inputBusinessCat, inputBusinessLocation)
-            
-def searchBusinessCat(inputBusinessCat, inputBusinessLocation):
-    cur = conn.cursor()
-    cur.execute("SELECT business_name,business_category,address_line_1,address_line_2,postcode FROM phonebook_business WHERE business_category =? and address_line_2 =? order by business_name", (inputBusinessCat, inputBusinessLocation ))
-
-"""
-    
 
 
 #---ALWAYS AT THE BOTTOM AND ONLY ONCE
