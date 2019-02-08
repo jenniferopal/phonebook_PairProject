@@ -129,7 +129,7 @@ def searchBusinessCat(inputBusinessCat, inputBusinessLocation):
     
     print("Would you like to search again? ")
     print("Type yes or no:")
-    another_option()
+#    another_option()
 
 
 ###############################
@@ -164,7 +164,7 @@ def searchSurname(inputSurname):
     print("")
     print("Would you like to search again? ")
     print("Type yes or no:")
-    another_option()     
+#    another_option()     
 
 
 #ANOTHER OPTION
@@ -180,7 +180,7 @@ def another_option():
                 break
             else:
                 print("Please try again.")
-                another_option()
+#                another_option()
             
         except ValueError():
             print("Please enter yes or no")      
