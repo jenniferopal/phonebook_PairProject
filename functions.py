@@ -129,7 +129,7 @@ def searchBusinessCat(inputBusinessCat, inputBusinessLocation):
     
     print("Would you like to search again? ")
     print("Type yes or no:")
-#    another_option()
+    another_option()
 
 
 ###############################
